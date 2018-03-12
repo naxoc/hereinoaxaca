@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 import Link from "gatsby-link";
 
 const Tags = ({pathContext, data}) => {
-  console.log(data);
   const {tag} = pathContext;
   const {edges, totalCount} = data.allMarkdownRemark;
   const tagHeader = `${totalCount} post${
