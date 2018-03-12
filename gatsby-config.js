@@ -11,6 +11,12 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-lodash`,
+      options: {
+        disabledFeatures: [`shorthands`, `cloning`],
+      },
+    },
     `gatsby-transformer-remark`,
   ],
 };
