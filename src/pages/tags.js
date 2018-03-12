@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 // Utilities
-import kebabCase from "lodash/kebabcase";
+import _ from "lodash";
 
 // Components
 import Helmet from "react-helmet";
@@ -39,7 +39,7 @@ class TagsPage extends React.Component {
           <ul>
             {group.map(tag => (
               <li key={tag.fieldValue}>
-                <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                <Link to={`/tags/${_.kebabCase(tag.fieldValue)}/`}>
                   {tag.fieldValue} ({tag.totalCount})
                 </Link>
               </li>
