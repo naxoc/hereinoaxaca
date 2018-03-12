@@ -41,7 +41,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       let tags = [];
 
       posts.forEach(({ node }) => {
-        if (node.frontmatter.tags) {
+        if (_.isEmpty(node.frontmatter.tags)) {
           tags = tags.concat(node.frontmatter.tags);
         }
 
