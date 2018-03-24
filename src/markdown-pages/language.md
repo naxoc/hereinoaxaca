@@ -2,7 +2,7 @@
 title: Language
 date: "2018-03-01"
 category: Travel Tips
-tags: ["language", "sentences"]
+tags: ["spanish"]
 ---
 
 Probably the best thing to improve your experience in Mexico is to pick up at least some basic Spanish vocabulary. In the main tourist areas, people will speak some English, but it's definitely not something to count on. Outside of very touristy places you shouldn't *expect* English at all. I find that the most common needs for Spanish come from figuring out menus and if you want to do any shopping at a market, since they won't have prices posted. If you already know even a little Spanish, you'll go a long way with it. Mexicans are nice and patient as you maul thier language, and you'll get it sorted out.

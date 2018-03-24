@@ -2,7 +2,7 @@
 title: Atole
 date: "2018-03-04"
 category: Food
-tags: ["corn", "beverage", "chocolate"]
+tags: ["corn", "drink", "chocolate"]
 ---
 
 Atole is a pre-Hispanic hot beverage made with a ground masa or flour, water or milk, and sugar, which can be found througout Mexico, and it is very common in Oaxaca. Corn is the historical grain and the most common still, but you can also find it made with rice or wheat, along with other grains such as amaranth. The grain thickens the drink so it has lots of mouthfeel, retains its heat better than a thinner drink, like coffee or tea, and feels more filling. It is commonly served as either plain/blanco or with chocolate as atole de chocolate (also known as champurrado). You can also find all kinds of variations with different flavors, including different kinds of fruits, peanuts, and fresh corn (elote) instead of meal (masa).
