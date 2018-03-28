@@ -22,7 +22,7 @@ As I said, you can find tour operators everywhere, and most of them will accommo
 ## Self-guided
 If you want the freedom to wander on your own and not pay anything, you can always do a self-guided tour. These are 2 options I've found that provide routes, though they don't have a ton of explanatory information to go with the locations, so you should probably have a guide book or do some of your own research before you go.
 
-- [Casa Machaya B&B](http://www.casamachaya.com/blog-posts/category/walking-tour-oaxaca) has a blog post that provides a route to take, though there is no map. It's all text.
+- [Casa Machaya B&B](http://www.casamachaya.com/blog-posts/category/walking-tour-oaxaca) has a blog post that provides a route to take, though there is no map; it's all text. I've created a [public Google Map](https://drive.google.com/open?id=1k9foi8BcXjhzftTUlHexjWRG6jXnDTid&usp=sharing) and added text form the post to help with taking the tour from your phone.
 - [GPSMyCity](https://www.gpsmycity.com/gps-tour-guides/oaxaca-4971.html) is an app that provides self-guided tours for cities all over the world, submitted by members. There are a few for Oaxaca in there, and they provide both a map and a brief explanation for each stop. (Note that "Article (A)" types have descriptions on the GPSMyCity site, and the "Article (B)" types have a link off to someone else's site for the details.) You can either use the GPSMyCity app on your phone or you can view the information directly on thier site in a browser.
 
 ## Food
