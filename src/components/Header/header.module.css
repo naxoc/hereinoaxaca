@@ -1,0 +1,21 @@
+.wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    display: block;
+}
+
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading-link {
+    color: white;
+}

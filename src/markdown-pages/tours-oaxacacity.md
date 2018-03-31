@@ -1,5 +1,5 @@
 ---
-title: Tours\: Oaxaca City
+title: "Tours: Oaxaca City"
 date: "2018-03-24"
 category: Activities
 tags:

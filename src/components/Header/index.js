@@ -1,33 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import topimage from './header.jpg';
+import styles from './header.module.css';
+
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
-    </div>
+  <div className={styles.wrapper}>
+    <img src={topimage} alt="" className={`fit ${styles.image}`}/>
+    <Link to="/" className={styles["heading-link"]}>
+      <h1 className={styles.heading}>Here in Oaxaca</h1>
+    </Link>
   </div>
-)
+);
 
 export default Header
