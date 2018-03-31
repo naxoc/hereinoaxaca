@@ -14,3 +14,5 @@ You should keep in mind that this site reflects our perspective and shouldn't be
 - We are in the fortunate position of being able to work from anywhere with a good internet connection, so we are working full time and enjoying Oaxaca in our free time.
 
  If you have questions about visiting, or living in, Oaxaca or Mexico, we'd love to hear them. 
+
+ **Note that this site is currently just starting out, so we'll be adding more content as time goes on.**
