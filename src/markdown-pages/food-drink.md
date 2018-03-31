@@ -19,7 +19,7 @@ For drinking, to start with non-alcoholic, you'll find that Oaxaca specializes i
 
 On the alcohol side, Oaxaca is famous around the world for mezcal. Mezcal is a distilled liquor made from the agave. Tequila is technically just 1 kind of mezcal that is made from a specific variety of agave and has regional and production restrictions for its name. Mezcal is also controlled regionally these days and while there are many Mexican states producing it now, Oaxaca is still considered the primary producer. You'll find a lot of opportunities to try hundreds of varieties in Oaxaca, in addition to a plethora of cocktails based on mezcal. There is also a low alchol, non-distilled agave beverage called pulque, which is popular in Oaxaca as well. Aside from its famous agave beverages, Oaxaca is also producing some nice craft beers, with several local breweries.
 
-###Articles about Food
+##Articles about Food
 Topics that are special to Oaxaca are marked with an (O) in the lists below.
 
 **Dishes**
@@ -37,15 +37,12 @@ Topics that are special to Oaxaca are marked with an (O) in the lists below.
 - Meat
 - Vegetables
 
-###Articles about Drink
+##Articles about Drink
 
 **Non-alcoholic**
 
-- Aguas
-- Atole
-- Chocolate
-- Liquados
-- Tejate (O)
+- Cold (e.g. Aguas, Liquados, Tejate (O))
+- Hot (e.g. Atole, Chocolate)
 
 **Alcoholic**
 
