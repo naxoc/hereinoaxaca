@@ -1,7 +1,7 @@
 ---
 title: Eating Special Diets
 date: "2018-03-11"
-category: Food
+category: Food and Drink
 tags: ["vegetarian"]
 ---
 

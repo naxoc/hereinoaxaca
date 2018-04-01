@@ -1,3 +1,10 @@
+---
+title: Food and Drink
+date: "2018-03-31"
+category: Food and Drink
+tags:
+---
+
 One of the things I love most about Mexico is the food and drink. I never get bored with Mexican cuisine.
 
 
@@ -7,7 +14,7 @@ One of the things I love most about Mexico is the food and drink. I never get bo
 ##Drink
 
 
-##Oaxacan Specialites
+##Oaxacan Specialities
 
 Oaxaca is a prime target for people who love food and drink. I would even say that it is the best culinary capital in Mexico outside of Mexico City. Like all regions of Mexico, you can get a wide variety of Mexican dishes, but there is also a distinct local food culture that sets it apart from other areas of the country. The different regions of Oaxaca state each have their own specialities and indigenous influence. With Oaxaca City being in Valles Centrales, the city takes a lot of influence from the local central Zapotec communities, although there is also a blend of Mixtec from the west and the Istemeño Zapotec from the east. In addition to exploring the local cuisine, there are also just a good number of really great restaurants in the city run by some of the top chefs in Mexico.
 

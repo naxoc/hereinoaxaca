@@ -1,7 +1,7 @@
 ---
 title: Atole
 date: "2018-03-04"
-category: Food
+category: Food and Drink
 tags: ["corn", "drink", "chocolate"]
 ---
 
