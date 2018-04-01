@@ -5,7 +5,6 @@ import Link from 'gatsby-link';
 
 class Featured extends React.Component {
   static propTypes = {
-    id: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
@@ -13,7 +12,7 @@ class Featured extends React.Component {
 
   render() {
     return (
-      <div className={`m1 featured-${this.props.id}`}>
+      <div className="m1 col-4">
         <div>
           <Link to={this.props.url}>
             <img className="fit" src={this.props.image} alt={this.props.text}/>

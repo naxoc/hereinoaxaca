@@ -18,6 +18,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
   const articleTemplate = path.resolve("src/templates/article.js");
   const tagTemplate = path.resolve("src/templates/tags.js");
+  const categoryTemplate = path.resolve("src/templates/category.js");
 
   return new Promise((resolve, reject) => {
     graphql(`
@@ -27,6 +28,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             node {
               frontmatter {
                 tags
+                category
               }
               fields {
                 slug
@@ -39,10 +41,14 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       const posts = result.data.allMarkdownRemark.edges;
 
       let tags = [];
+      let categories = [];
 
       posts.forEach(({ node }) => {
         if (!_.isEmpty(node.frontmatter.tags)) {
           tags = tags.concat(node.frontmatter.tags);
+        }
+        if (!_.isEmpty(node.frontmatter.category)) {
+          categories = categories.concat(node.frontmatter.category);
         }
 
         // Create an article page.
@@ -57,6 +63,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       });
       // Remove duplicates from tags.
       tags = _.uniq(tags);
+      categories = _.uniq(categories);
 
       // Make tag pages
       tags.forEach(tag => {
@@ -65,6 +72,15 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           component: tagTemplate,
           context: {
             tag,
+          },
+        });
+      });
+      categories.forEach(category => {
+        createPage({
+          path: `/category/${_.kebabCase(category)}/`,
+          component: categoryTemplate,
+          context: {
+            category,
           },
         });
       });

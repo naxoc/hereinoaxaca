@@ -6,9 +6,9 @@ import styles from './header.module.css';
 
 const Header = () => (
   <div className={styles.wrapper}>
-    <img src={topimage} alt="" className={`fit ${styles.image}`}/>
+    <img src={topimage} alt="" className={`${styles.image}`}/>
     <Link to="/" className={styles["heading-link"]}>
-      <h1 className={styles.heading}>Here in Oaxaca</h1>
+      <h1 className={`${styles.heading}`}>Here in Oaxaca</h1>
     </Link>
   </div>
 );

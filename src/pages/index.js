@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from "prop-types";
 import get from "lodash/get";
 
-
 import Featured from '../components/Featured';
+import Menu from '../components/Menu';
+import Teaser from '../components/Teaser';
 
 class IndexPage extends React.Component {
 
@@ -37,32 +38,41 @@ class IndexPage extends React.Component {
         <div>
           {intro}
         </div>
-        <div className="flex">
+        <div className="flex mb4">
           <Featured
-            id="1"
             image="http://via.placeholder.com/200x200"
             text="This is featured"
             url="/language"
           />
           <Featured
-            id="2"
             image="http://via.placeholder.com/200x200"
             text="This is featured"
             url="/language"
           />
           <Featured
-            id="3"
             image="http://via.placeholder.com/200x200"
             text="This is featured"
             url="/language"
           />
         </div>
 
-        {markdown.edges.map(({node}, idx) => (
-          <div key={idx}>
-            <p><a href={node.fields.slug}>{node.frontmatter.title}</a></p>
-          </div>
-        ))}
+        <div className="col col-8">
+          <ul className="list-reset">
+          {markdown.edges.map(({node}, idx) => (
+            <Teaser
+              key={idx}
+              title={node.frontmatter.title}
+              summary={node.frontmatter.summary}
+              url={node.frontmatter.url}
+              category={node.frontmatter.category}
+            />
+          ))}
+          </ul>
+        </div>
+
+        <div className="col col-4">
+        <Menu />
+        </div>
       </div>
     );
   }
@@ -71,8 +81,11 @@ class IndexPage extends React.Component {
 export default IndexPage
 
 export const allQuery = graphql`
-query allQuery {
-    allMarkdownRemark {
+  query allQuery {
+    allMarkdownRemark(
+      limit:3
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           fields {
@@ -80,6 +93,9 @@ query allQuery {
           }
           frontmatter {
             title
+            date
+            summary
+            category
           }
         }
       }
