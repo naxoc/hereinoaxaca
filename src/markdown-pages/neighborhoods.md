@@ -1,6 +1,7 @@
 ---
 title: Oaxaca Neighborhoods
 date: "2018-03-02"
+summary: "Learn about the various neighborhoods of Oaxaca and where you might want to stay."
 category:
 tags:
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Tours: Oaxaca City"
 date: "2018-03-24"
+summary: "Here is a list of tours to check out the sites of the city."
 category: Activities
 tags:
 ---

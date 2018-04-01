@@ -1,6 +1,7 @@
 ---
 title: Eating Special Diets
 date: "2018-03-11"
+summary: "Oaxaca has great food, but some diets need to take extra care. We take a look at some options."
 category: Food
 tags: ["vegetarian"]
 ---

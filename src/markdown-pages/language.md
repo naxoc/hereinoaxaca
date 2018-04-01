@@ -1,6 +1,7 @@
 ---
 title: Language
 date: "2018-03-01"
+summary: "Knowing even a little bit of the local language will improve your trip immensely. We also provide some tips specific to Mexican Spanish."
 category: Travel Tips
 tags: ["spanish"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: Atole
 date: "2018-03-04"
+summary: "Atole is a pre-Hispanic hot beverage made with a ground masa or flour, water or milk, and sugar, which can be found througout Mexico, and it is very common in Oaxaca."
 category: Food
 tags: ["corn", "drink", "chocolate"]
 ---
