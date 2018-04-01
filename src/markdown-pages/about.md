@@ -1,8 +1,8 @@
 ---
 title: About
-date: "2018-03-07"
+date: "2018-03-01"
 summary: "A little bit about us and the site."
-category:
+category: About
 tags:
 ---
 

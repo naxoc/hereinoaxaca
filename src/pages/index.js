@@ -56,21 +56,21 @@ class IndexPage extends React.Component {
           />
         </div>
 
-        <div className="col col-8">
+        <div className="col col-9">
           <ul className="list-reset">
           {markdown.edges.map(({node}, idx) => (
             <Teaser
               key={idx}
               title={node.frontmatter.title}
               summary={node.frontmatter.summary}
-              url={node.frontmatter.url}
+              url={node.fields.slug}
               category={node.frontmatter.category}
             />
           ))}
           </ul>
         </div>
 
-        <div className="col col-4">
+        <div className="col col-3">
         <Menu />
         </div>
       </div>
