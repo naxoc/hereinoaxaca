@@ -2,10 +2,12 @@
 title: Hot Drinks
 date: "2018-03-04"
 category: Food and Drink
-tags: ["corn", "drink", "chocolate", "atole", "coffee", "tea"]
+tags: ["drink", "chocolate", "atole", "coffee", "tea"]
 ---
 
-##Coffee
+##Coffee (Café)
+
+###Café de Olla
 
 ##Chocolate
 
@@ -22,4 +24,4 @@ After poking around a bit I discovered that chocolateatole is truly a different 
 
 You can see the difference between atole de chocolate and chocolateatole by the foam on top. Pataxte creates some serious foam when whipped up and when it is served you will have a nice, thick foamy topping in your bowl, while the regular atole will not be foamy or if someone did whip it, you'll only see a little bit of froth or bubbles.
 
-##Tea
+##Tea (Té)
